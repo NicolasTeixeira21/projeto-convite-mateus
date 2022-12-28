@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.nomebox {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.checkout {
+    text-align: center;
+    margin-top: 15px;
+}
+
+img {
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
