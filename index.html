@@ -8,19 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="imagem/WhatsApp Image 2022-12-27 at 21.51.20.jpeg" alt="imagem do convite">
+    <main>
+        <section id="formulario">
+            <div id="imagem">
+                <!--Imagem no CSS-->
+            </div>
 
-    <form action="convite.php" method="post">
-        <div class="nomebox">
-            <label for="iname">Nome:</label>
-            <input type="text" name="name" id="iname">
-        </div>
-        <div class="checkout">
-            <input type="checkbox" name="Eu vou" id="Eu vou">
-            <input type="checkbox" name="Não vou" id="Não vou">
-            <input type="checkbox" name="Talvez" id="Talvez">
-        </div>
-        <input type="submit" value="Enviar">
-    </form>
+            <div>
+                <form action="convite.php" method="post">
+                    <div class="nomebox">
+                        <label for="iname">Nome:</label>
+                        <input type="text" name="name" id="iname" placeholder="Seu nome">
+                    </div>
+
+                    <div class="checkout">
+                        <input type="radio" name="confirmacao" id="Eu vou"> Eu vou
+                        <input type="radio" name="confirmacao" id="Não vou"> Não vou
+                        <input type="radio" name="confirmacao" id="Talvez"> Talvez
+                    </div>
+
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+
+    
 </body>
 </html>

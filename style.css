@@ -1,18 +1,55 @@
 @charset "UTF-8";
 
-.nomebox {
-    margin-top: 10px;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #000000a5;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+section#formulario > div#imagem {
+    display: block;
+    background: #5f2c82 url(imagem/WhatsApp\ Image\ 2022-12-27\ at\ 21.51.20.jpeg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+p {
     text-align: center;
+    padding: 10px;
 }
 
 .checkout {
     text-align: center;
-    margin-top: 15px;
+    padding: 10px;
 }
 
-img {
-    width: 500px;
-    margin: auto;
-    display: block;
+.nomebox {
+    text-align: center;
+    padding: 10px;
+    border: none;
 }
-
