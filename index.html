@@ -11,25 +11,13 @@
     <main>
         <section id="formulario">
             <div id="imagem">
-                <!--Imagem no CSS-->
+                
             </div>
-
-            <div>
-                <form action="convite.php" method="post">
-                    <div class="nomebox">
-                        <label for="iname">Nome:</label>
-                        <input type="text" name="name" id="iname" placeholder="Seu nome">
-                    </div>
-
-                    <div class="checkout">
-                        <input type="radio" name="confirmacao" id="Eu vou"> Eu vou
-                        <input type="radio" name="confirmacao" id="Não vou"> Não vou
-                        <input type="radio" name="confirmacao" id="Talvez"> Talvez
-                    </div>
-
-                    <p>
-                        <input type="submit" value="Enviar">
-                    </p>
+            <div class="confirmo">
+                <form action="cadastro.php" method="post">
+                    <label for="iconfirma"></label>
+                    <input type="radio" name="sim" id="iconfirma"> Eu vou
+                    <!-- FAZER ESSE MESMO ESQUEMA PARA OS OUTROS DOIS CAMPOS ( NAO CONFIRMA E TALVEZ ) -->
                 </form>
             </div>
         </section>
