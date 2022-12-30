@@ -14,9 +14,34 @@ body, html {
 }
 
 section#formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     background: url(imagem/pexels-elvis-2528118.jpg) no-repeat;
     background-size: cover;
     width: 250px;
     height: 500px;
+    border-radius: 15px;
 }
 
+.confirmo > input[type=submit] {
+    position: relative;
+    font-size: 1em;
+    width: 90%;
+    background-color: rgb(8, 168, 8);
+    border: none;
+    padding: 5px;
+    top: 444px;
+    left: 13px;
+}
+
+.confirmo > form {
+    position: relative;
+    top: 435px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
